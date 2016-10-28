@@ -9,7 +9,7 @@ def BMI_calc ():
     elif BMI > 25:
         print("you are over weight. you shold see your doctor.")
     else:
-        print("your BMI is ",BMI)
+        print("your BMI is {0}.".format(BMI))
         print("you are underweight. you should see your doctor")
 
 
